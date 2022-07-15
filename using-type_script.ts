@@ -100,7 +100,7 @@ function loading(): void {
     console.log('hello');
 
     var id1 = (<HTMLInputElement>document.getElementById("myButton")).value;
-    if (id1 != null) {
+    if (id1 !== null) {
         id1 = "Refresh Data"
 
     }
